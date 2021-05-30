@@ -10,5 +10,7 @@ public class Dog extends Animal {
         dog.setName("poppy");
         System.out.println(dog.name);
         dog.sleep();
+	dog.move();
+	dog.eat();
     }
 }
